@@ -24,7 +24,7 @@ public class Greeter {
   public String sayHello() 
 
   {
-  	if (name == "") 
+  	if (name == "James Michael") 
 
     {
        return "Hello!";
