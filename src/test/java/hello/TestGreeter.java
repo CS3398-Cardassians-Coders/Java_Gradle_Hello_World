@@ -12,11 +12,11 @@ public class TestGreeter {
    private Greeter g = new Greeter();
 
    @Test
-   @DisplayName("Test for Empty Name")
+   @DisplayName("Test for Name")
    public void testGreeterEmpty() 
 
    {
-      assertEquals(g.getName(),"");
+      assertEquals(g.getName(),"James Michael");
       assertEquals(g.sayHello(),"Hello!");
    }
 
