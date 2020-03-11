@@ -13,9 +13,10 @@ public class TestGreeter {
 
    @Test
    @DisplayName("Test for Name")
-   public void testGreeterEmpty() 
+   public void testGreeter() 
 
    {
+      g.setName("James Michael");
       assertEquals(g.getName(),"James Michael");
       assertEquals(g.sayHello(),"Hello!");
    }
