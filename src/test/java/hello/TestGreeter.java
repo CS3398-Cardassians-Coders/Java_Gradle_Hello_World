@@ -13,7 +13,7 @@ public class TestGreeter {
 
    @Test
    @DisplayName("Test for Name")
-   public void testGreeter() 
+   public void testGreeterEmpty() 
 
    {
       g.setName("James Michael");
